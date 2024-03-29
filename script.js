@@ -8,6 +8,6 @@ let value = form.addEventListener("submit",urlevent);
 	  let name =  getElementById("name")
 	  let year =  getElementById("year")
 
-	  // const queryString = `?name=${encodeURIComponent(name)}&year=${encodeURIComponent(year)}`;
-	  //   urlElement.textContent = `https://localhost:8080/${queryString}`;
+	  const queryString = `?name=${encodeURIComponent(name)}&year=${encodeURIComponent(year)}`;
+	    urlElement.textContent = `https://localhost:8080/${queryString}`;
   }
